@@ -119,8 +119,19 @@ body{
    overflow:auto;
    color:#131a28;
 }
-@media (max-width: 460px){
+#MenuIcon{
+    height:34px;
+    float:right;
+    margin:11px;
+}
+#MenuIcon{
+    display:none;
+}
+@media (max-width: 480px){
     .UL-LIST-NAVBAR {
         display:none;
+    }
+    #MenuIcon {
+        display:block;
     }
 }
