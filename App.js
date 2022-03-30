@@ -5,6 +5,7 @@ const GetRandomColor = () => {
     document.body.style.backgroundColor = RandomColorCode;
     document.getElementById("Hex-Color-Code").innerHTML = RandomColorCode;
     document.getElementById("CP-Logo").style.borderColor= RandomColorCode;
+    document.getElementById("Footer-Text").style.color = RandomColorCode;
 
 }
 document.getElementById("btn").addEventListener(
